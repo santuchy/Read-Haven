@@ -10,7 +10,7 @@ export default function LoginPage() {
   const router = useRouter();
 
   const handleGoogleSignIn = async () => {
-    await signIn('google', { callbackUrl: '/dashboard/add-product' }); // ✅ Login sesh e home page
+    await signIn('google', { callbackUrl: '/products' }); // ✅ Login sesh e home page
   };
 
   return (
