@@ -55,12 +55,7 @@ export default function ProductHighlights() {
                   {product.name}
                 </h3>
                 <p className="text-gray-600 mb-4">{product.description}</p>
-                <Link
-                  href={product.link}
-                  className="text-[#594a47] font-semibold hover:underline"
-                >
-                  Learn More
-                </Link>
+                
               </div>
             </div>
           ))}
